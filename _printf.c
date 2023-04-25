@@ -24,7 +24,7 @@ int _printf(const char *format, ...)
 		init_params(&params, ap);
 		if (*p != '%')
 		{
-			sum += _putchar(*p);
+			sum += putchar(*p);
 			continue;
 		}
 		start = p;
